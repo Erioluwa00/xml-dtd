@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family [
+       <!ELEMENT family (parent)*>
+        <!ELEMENT parent (child)*>
+        <!ATTLIST parent hobby CDATA #IMPLIED>
+        <!ATTLIST parent age CDATA #IMPLIED>
+        <!ATTLIST parent gender CDATA #IMPLIED>
+        <!ATTLIST parent name CDATA #IMPLIED>
+        <!ELEMENT child (#PCDATA)>
+        <!ATTLIST child title CDATA #IMPLIED>
+        <!ATTLIST child age CDATA #IMPLIED>
+        ]>
+<family>
+    <parent hobby="Dancing" age="20" gender="female" name="Erioluwa">
+        <child title="daughter" age="10">Ireoluwa</child>
+        <child title="son" age="20">Zion</child>
+    </parent>
+    <parent hobby="working" age="40" gender="male" name="Tomiwa">
+        <child title="son" age="15">Daniel</child>
+        <child title="daughter" age="10">Fife</child>
+    </parent>
+    <parent hobby="singing" age="52" gender="female" name="Oluwaseun">
+        <child title="son" age="20">Zion</child>
+        <child title="daughter" age="10">Ariana</child>
+    </parent>
+    <parent hobby="Gaming" age="44" gender="male" name="Dotun">
+        <child title="daughter" age="10">Ariana</child>
+        <child title="daughter" age="10">Fife</child>
+    </parent>
+    <parent hobby="Dancing" age="20" gender="female" name="Tricia">
+        <child title="pet" age="1">Bella</child>
+        <child title="pet" age="1">Bingo</child>
+    </parent>
+    <parent hobby="Singing" age="40" gender="female" name="Gift">
+        <child title="daughter" age="10">Fife</child>
+        <child title="son" age="20">Zion</child>
+    </parent>
+<!--    <family hobby="singing" age="10" gender="female" position="grand-daughter">Ireoluwa</family>-->
+<!--    <family hobby="eating" age="1" gender="female" position="pet">Bella</family>-->
+<!--    <family hobby="working" age="40" gender="male" position="son">Dotun</family>-->
+<!--    <family hobby="cooking" age="50" gender="female" position="mother">Mrs Seun</family>-->
+<!--    <family hobby="Reading" age="55" gender="male" position="father">Ireoluwa</family>-->
+</family>
