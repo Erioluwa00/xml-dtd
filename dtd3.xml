@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore system "dtd3.dtd">
+<!--Bookstore with books having an author, attributes, genre, title, published date, each books author.-->
+<bookstore>
+    <book genre="drama" title="Fawaz the lost monkey" published_date="09-02-1990">
+        <author gender="Female" title="Doc" practicing="yes" previous_book="Little princess">
+            Erioluwa
+        </author>
+    </book>
+    <book genre="prose" title="Jola and Sade" published_date="09-02-1980">
+        <author gender="Male" title="Doc" practicing="no" previous_book="Lion and Jewel">
+            Sulaiman
+        </author>
+    </book>
+    <book genre="drama" title="Not learning anymore" published_date="09-02-1990">
+        <author gender="Female" title="Doc" practicing="yes" previous_book="Rich and poor">
+            Mayowa
+        </author>
+        <book genre="drama" title="The lost tortoise" published_date="09-02-1990">
+            <author gender="Male" title="Doc" practicing="yes" previous_book="All Darkness">
+                Tomiwa
+            </author>
+        </book>
+    </book>
+</bookstore>
